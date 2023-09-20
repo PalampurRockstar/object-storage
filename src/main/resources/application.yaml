@@ -8,3 +8,9 @@ server:
   port: 8888
 upload:
   directory: E:\WSP\OBJECTS\WSP_1\web-app
+
+spring:
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
